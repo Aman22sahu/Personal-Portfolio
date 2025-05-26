@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/056c137268.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/aman_logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li> 
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>                     
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+              
+                <h1>Hi,I'm <span>Aman Sahu</span><br></h1>
+                <p>Web Developer</p>
+            </div>
+        </div>
+       </div>
+       <!-------------about----------->
+       <div id="about">
+        <div class="Container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                 <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I’m an Electronics and Communication Engineering student from LNCT Bhopal, passionate about
+                         both core electronics and software development. 
+                        I’ve built projects like an Automatic Fire Extinguisher, a Piezoelectric Power Generator,
+                         an Amazon Clone website, and a Tic Tac Toe.
+
+Skilled in Java, DSA, HTML, CSS, JavaScript, SQL, and OOPs, I’m actively preparing for tech placements by
+ combining strong technical foundations with practical problem-solving and communication skills.</p>
+                          <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                         </div>
+                         <div class="tab-content active-tab" id="skills">
+                            <ul>
+                            <li><span>Programming language:</span><br>java/SQL/JS</li>
+                            <li><span>Frontend Development:</span><br>HTML/CSS/JavaScript/Responsive Web Design</li>
+                            <li><span>Core Concepts:</span><br> DSA/OOPS/Digital Electronics/Signal Processing/Microcontrollers</li>
+                            <li><span>Projects:</span><br>Amazon Clone WEBSITE,Tic Tac Toe<br> Automatic Fire Extinguisher System, Piezoelectric Power Generator</li>
+                         </ul>
+                         </div>
+                            <div class="tab-content" id="experience">
+                            <ul>
+                            <li><span>May 2025 Current</span><br>Salesforce</li>
+                            <li><span>May 2025</span><br>Introduction To Cybersecurity-Cisco Networking</li>
+                            <li><span>December 2024</span><br>java Training-Infofys</li>     
+                            <li><span>OCTOBER 2024</span><br>Investment Banking Job Simulation-J.P.Morgan</li>
+                             </ul>
+                         </div>
+                         <div class="tab-content" id="education">
+                        <ul>
+                                  <li><span>2022-2026</span><br>Lakshmi Narain College Of Technology,Bhopal</li>
+                                  <li><span>2022</span><br>12th from Woods Heritage School,Jhansi</li>
+                                 <li><span>2020</span><br>10th From Woods Heritage School,Jhansi</li>
+                      </ul>
+                 </div>
+            </div>
+        </div>
+       </div>
+    </div>
+
+    <!-----------services----->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title"> My Services</h1>
+            <div class="services-list">
+      <div>
+        <i class="fa-solid fa-code"></i>
+        <h2>Web Design</h2>
+        <p>Creating visually appealing, user-friendly, and responsive website layouts using HTML, CSS, and JavaScript. 
+            Focused on delivering seamless user experiences across devices with modern design principles</p>
+             <a href="#">Learn more</a>
+      </div>
+      <div>
+        <i class="fa-solid fa-crop-simple"></i>
+        <h2>Electronics & Embedded System</h2>
+        <p>Designing and developing sensor-based automation systems and embedded solutions using microcontrollers.
+             Experienced in building real-time applications like fire detection systems and piezoelectric power generators.</p>
+             <a href="#">Learn more</a>
+      </div>
+      <div>
+        <i class="fa-brands fa-app-store-ios"></i>
+        <h2>Java Development & DSA Problem Solving
+</h2>
+        <p>Proficient in Java and data structures, I build logic-driven applications and games like Tic Tac Toe with AI. 
+            I also solve DSA problems regularly to strengthen problem-solving skills.</p>
+             <a href="#">Learn more</a>
+      </div>
+            </div>
+        </div>
+    
+    </div>
+
+<!----------------portfolio------>
+
+<div id="portfolio">
+    <div class="container">
+         <h1 class="sub-title"> My Work</h1>
+         <div class="work-list">
+            <div class="work">
+                <img src="images/WhatsApp Image 2025-05-26 at 16.11.00_6f5f5d03.jpg">
+                <div class="layer">
+                    <h3>Automatic Fire Extenguisher</h3>
+                    <p>A sensor-based safety system designed to detect fire and automatically activate an extinguisher mechanism.
+                         The project uses flame sensors, microcontrollers (e.g., Arduino), and motor control to respond instantly in case of fire, reducing human risk..</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+                        <div class="work">
+                <img src="images/WhatsApp Image 2025-05-26 at 16.04.05_7297e8b2.jpg">
+                 <div class="layer">
+                    <h3>Tic Tac Toe</h3>
+                    <p>Developed a Tic-Tac-Toe game in Java with a graphical interface supporting two-player and AI modes. Implemented the Minimax algorithm to create an unbeatable AI opponent with win/draw detection.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+                        <div class="work">
+                <img src="images/WhatsApp Image 2025-05-26 at 16.11.00_6d85039a.jpg">
+                 <div class="layer">
+                    <h3>Amazon Clone Web Design</h3>
+                    <p> A responsive e-commerce website clone built using HTML, CSS, and JavaScript — mimics Amazon's layout and user flow. </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+         </div>
+         <a href="#" class="btn">See More</a>
+
+    </div>
+</div>
+
+<!----------------contact----------->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>aman2206sahu@gmail.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i>8090029944</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/aman-sahu-81280b254"><i class="fa-brands fa-linkedin"></i></a>
+                     <a href="https://github.com/your-Aman22sahu"><i class="fa-brands fa-github"></i></i></a>
+                   
+                </div>
+                <a href="images/edit pdf.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form> 
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your email" required>
+                        <textarea type="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Thank you <i class="fa-solid fa-heart"></i>For visting my portfolio!</p>
+    </div>
+</div>
+
+
+    <script>
+             
+             var tablinks= document.getElementsByClassName("tab-links");
+             var tabcontent= document.getElementsByClassName("tab-content");
+
+               function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontents of tabcontent){
+                    tabcontents.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+               }
+
+
+    </script>
+
+    <script>
+var sidemenu=document.getElementById("sidemenu");
+
+function openmenu(){
+    sidemenu.style.right="0";
+}
+function closemenu(){
+    sidemenu.style.right="-200px";
+}
+
+
+    </script>
+
+</body>
+</html>
