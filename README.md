@@ -15,7 +15,7 @@ Welcome to my Personal Portfolio Website! This site is a showcase of my skills, 
 
 ## How to Use
 1. Clone this repository:
-2. git clone:-https://github.com/Aman22sahu/Personal-Portfolio.git
+2. git clone:-
 
 
 
